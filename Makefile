@@ -1,2 +1,4 @@
 all:
-	echo '#!/usr/bin/env node \n' > ./bin/stitchup && coffee -p ./src/stitchup.coffee >> ./bin/stitchup && chmod 755 ./bin/stitchup
+	mkdir -p ./bin
+	echo "#!/usr/bin/env node" > ./bin/stitchme
+	coffee -p ./src/stitchme.coffee >> ./bin/stitchme && chmod 755 ./bin/stitchme

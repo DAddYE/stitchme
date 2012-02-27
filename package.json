@@ -1,22 +1,20 @@
 {
-  "name": "stitchup",
-  "description": "Use stitch from the commandline. Minify your JS and get browser-side require().",
+  "name": "stitchme",
+  "description": "Use stitch from the command-line and get browser-side require()",
   "contributors": [
     "Tim Oxley"
   ],
-  "version": "0.1.7",
-  "main": "./bin/stitchup",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
-    "url": "git@github.com:timoxley/stitchup.git"
+    "url": "git@git.github.com:daddye/stitchme.git"
   },
   "bin": {
-    "stitchup": "./lib/stitchup.js"
+    "stitchme": "./bin/stitchme"
   },
   "dependencies": {
-    "stitch": "~0.3.3",
-    "uglify-js": "~1.2.5",
-    "optimist": "~0.3.1"
+    "stitch": ">=0.3.3",
+    "optimist": ">=0.3.1"
   },
   "preferGlobal": "true",
   "devDependencies": {
@@ -26,9 +24,6 @@
   "engines": {
     "node": "*"
   },
-  "author": "Tim Oxley <secoif@gmail.com> (unit.io)",
-  "homepage": "https://github.com/timoxley/stitchup",
-  "scripts": {
-    "test": "mocha test/*.coffee"
-  }
+  "author": "DAddYE <d.dagostino@lipsiasoft.com> (daddye.it)",
+  "homepage": "https://github.com/daddye/stitchme"
 }
